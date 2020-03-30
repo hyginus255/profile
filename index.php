@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from pxltheme.com/html/bolby/demo/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Mar 2020 21:58:08 GMT -->
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Bolby - Portfolio/CV/Resume HTML Template</title>
@@ -974,5 +973,4 @@
 
 </body>
 
-<!-- Mirrored from pxltheme.com/html/bolby/demo/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Mar 2020 21:59:43 GMT -->
 </html>
