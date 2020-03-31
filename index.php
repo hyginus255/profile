@@ -3,8 +3,8 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Bolby - Portfolio/CV/Resume HTML Template</title>
-	<meta name="description" content="Bolby - Portfolio/CV/Resume HTML Template">
+	<title>Hyginus - Porfolio</title>
+	<meta name="description" content="Hyginus - Portfolio">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -20,7 +20,20 @@
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<![endif]-->
+	
+	<style>
+		#profile-image{
+			width: 120px;
+			height: 120px;
+			border-radius : 50%;
+			background-image: url('images/me.jpg');
+			background-position:center;
+			background-size:cover;
+			background-repeat:no-repeat;
+			margin:2px auto;
+		}
+	</style>
 
 </head>
 
@@ -73,7 +86,8 @@
 		<!-- logo image -->
 		<div class="site-logo">
 			<a href="index-light.html">
-				<img src="images/logo-dark.svg" alt="Bolby" />
+				<!-- <img src="images/logo-dark.svg" alt="Bolby" /> -->
+				<h2 class="m-0">Hyginus</h2>
 			</a>
 		</div>
 	</div>
@@ -85,7 +99,8 @@
 	<!-- logo image -->
 	<div class="site-logo">
 		<a href="index-light.html">
-			<img src="images/logo-dark.svg" alt="Bolby" />
+			<!-- <img src="images/logo-dark.svg" alt="Bolby" /> -->
+			<h2 class="m-0">Hyginus</h2>
 		</a>
 	</div>
 	
@@ -120,11 +135,11 @@
 			<!-- intro -->
 			<div class="intro">
 				<!-- avatar image -->
-				<img src="images/avatar-1.svg" alt="Bolby" class="mb-4" />
+				<div id="profile-image"></div>
 
 				<!-- info -->
-				<h1 class="mb-2 mt-0">Bolby Doe</h1>
-				<span>I'm a <span class="text-rotating">UI/UX designer, Front-End developer, Photography lover</span></span>
+				<h1 class="mb-2 mt-2">Hyginus Ukeh</h1>
+				<span>I'm a <span class="text-rotating">UI/UX designer, Front-End developer, UX/UI Designer</span></span>
 
 				<!-- social icons -->
 				<ul class="social-icons light list-inline mb-0 mt-4">
@@ -206,7 +221,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<!-- about text -->
-								<p>I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
+								<p>I am Hyginus Ukeh, a software engineer who is highly skilled and passionate about solving problems. I have rich experience in website design, website development and UI/UX Design.</p>
 								<div class="mt-3">
 									<a href="#" class="btn btn-default">Download CV</a>
 								</div>
@@ -216,7 +231,7 @@
 								<!-- skill item -->
 								<div class="skill-item">
 									<div class="skill-info clearfix">
-										<h4 class="float-left mb-3 mt-0">Development</h4>
+										<h4 class="float-left mb-3 mt-0">Web Design</h4>
 										<span class="float-right">85%</span>
 									</div>
 									<div class="progress">
@@ -229,7 +244,7 @@
 								<!-- skill item -->
 								<div class="skill-item">
 									<div class="skill-info clearfix">
-										<h4 class="float-left mb-3 mt-0">UI/UX design</h4>
+										<h4 class="float-left mb-3 mt-0">We Development</h4>
 										<span class="float-right">95%</span>
 									</div>
 									<div class="progress">
@@ -242,7 +257,7 @@
 								<!-- skill item -->
 								<div class="skill-item">
 									<div class="skill-info clearfix">
-										<h4 class="float-left mb-3 mt-0">Photography</h4>
+										<h4 class="float-left mb-3 mt-0">UX/UI</h4>
 										<span class="float-right">70%</span>
 									</div>
 									<div class="progress">
@@ -267,7 +282,7 @@
 					<div class="fact-item">
 						<span class="icon icon-fire"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">198</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">38</em></h3>
 							<p class="mb-0">Projects completed</p>
 						</div>
 					</div>
@@ -279,7 +294,7 @@
 					<div class="fact-item">
 						<span class="icon icon-cup"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">5670</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">800</em></h3>
 							<p class="mb-0">Cup of coffee</p>
 						</div>
 					</div>
@@ -291,7 +306,7 @@
 					<div class="fact-item">
 						<span class="icon icon-people"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">427</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">20</em></h3>
 							<p class="mb-0">Satisfied clients</p>
 						</div>
 					</div>
@@ -341,7 +356,7 @@
 					<!-- service box -->
 					<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C">
 						<img src="images/service-2.svg" alt="UI/UX design" />
-						<h3 class="mb-3 mt-0">Web Development</h3>
+						<h3 class="mb-3 mt-0">Web Design</h3>
 						<p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
@@ -350,8 +365,8 @@
 				<div class="col-md-4" data-wow-delay="0.4s">
 					<!-- service box -->
 					<div class="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
-						<img src="images/service-3.svg" alt="UI/UX design" />
-						<h3 class="mb-3 mt-0">Photography</h3>
+						<img src="images/service-2.svg" alt="UI/UX design" />
+						<h3 class="mb-3 mt-0">Web Development</h3>
 						<p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
 					</div>
 				</div>
@@ -621,61 +636,6 @@
 					<li class="list-inline-item">1</li>
 					<li class="list-inline-item"><a href="works-2.html">2</a></li>
 				</ul>
-			</div>
-
-		</div>
-
-	</section>
-	
-	<!-- section prices -->
-	<section id="prices">
-
-		<div class="container">
-			
-			<!-- section title -->
-			<h2 class="section-title wow fadeIn">Pricing Plans</h2>
-
-			<div class="spacer" data-height="60"></div>
-			
-			<div class="row">
-				
-				<div class="col-md-4 pr-md-0 mt-md-4 mt-0">
-					<!-- price item -->
-					<div class="price-item bg-white rounded shadow-dark text-center">
-						<img src="images/price-1.svg" alt="Regular" />
-						<h2 class="plan">Basic</h2>
-						<p>A Simple option but powerful to manage your business</p>
-						<p>Email support</p>
-						<h3 class="price"><em>$</em>9<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-md-4 px-md-0 my-4 my-md-0">
-					<!-- price item recommended-->
-					<div class="price-item bg-white rounded shadow-dark text-center best">
-						<span class="badge">Recommended</span>
-						<img src="images/price-2.svg" alt="Premium" />
-						<h2 class="plan">Premium</h2>
-						<p>Unlimited product including apps integrations and more features</p>
-						<p>Mon-Fri support</p>
-						<h3 class="price"><em>$</em>49<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-md-4 pl-md-0 mt-md-4 mt-0">
-					<!-- price item -->
-					<div class="price-item bg-white rounded shadow-dark text-center">
-						<img src="images/price-3.svg" alt="Ultimate" />
-						<h2 class="plan">Ultimate</h2>
-						<p>A wise option for large companies and individuals</p>
-						<p>24/7 support</p>
-						<h3 class="price"><em>$</em>99<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
 			</div>
 
 		</div>
