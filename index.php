@@ -211,7 +211,7 @@
 				<div class="col-md-3">
 					<div class="text-center text-md-left">
 						<!-- avatar image -->
-						<img src="images/avatar-2.svg" alt="Bolby" />
+						<img src="images/avatar-2.svg" alt="Hyginus" />
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
@@ -223,7 +223,7 @@
 								<!-- about text -->
 								<p>I am Hyginus Ukeh, a software engineer who is highly skilled and passionate about solving problems. I have rich experience in website design, website development and UI/UX Design.</p>
 								<div class="mt-3">
-									<a href="#" class="btn btn-default">Download CV</a>
+									<a href="#" class="btn btn-default mb-2">Download CV</a>
 								</div>
 								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 							</div>
@@ -493,28 +493,48 @@
 			<!-- portfolio filter (desktop) -->
 			<ul class="portfolio-filter list-inline wow fadeInUp">
 				<li class="current list-inline-item" data-filter="*">Everything</li>
-				<li class="list-inline-item" data-filter=".creative">Creative</li>
-				<li class="list-inline-item" data-filter=".art">Art</li>
-				<li class="list-inline-item" data-filter=".design">Design</li>
-				<li class="list-inline-item" data-filter=".branding">Branding</li>
+				<li class="list-inline-item" data-filter=".web">Web Design - Web Development</li>
+				<li class="list-inline-item" data-filter=".ui">UX/UI Designs</li>
 			</ul>
 			
 			<!-- portfolio filter (mobile) -->
 			<div class="pf-filter-wrapper">
 				<select class="portfolio-filter-mobile">
 					<option value="*">Everything</option>
-					<option value=".creative">Creative</option>
-					<option value=".art">Art</option>
-					<option value=".design">Design</option>
-					<option value=".branding">Branding</option>
+					<option value=".creative">Web Design - We Development</option>
+					<option value=".ui">UX/UI Designs</option>
 				</select>
 			</div>
 			
 			<!-- portolio wrapper -->
 			<div class="row portfolio-wrapper">
+
+				<!-- portfolio item React football-->
+				<div class="col-md-4 col-sm-6 grid-item creative web">
+					<a href="#small-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Web Design/Development</span>
+								<h4 class="title">React Football Application</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="images/react-football1.png" alt="Portfolio-title" /> -->
+								<img src="images/works/2.svg" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/react-football.png" alt="Title" />
+						<h2>React Football Application</h2>
+						<p>An application built with fun. This application is developed with react to display tables and fixtures of all kinds of football competition.</p>
+						<a href="https://react-football-updates.herokuapp.com/tables/CL" target="_blank" class="btn btn-default">Vist Website</a>
+					</div>
+				</div>
 				
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art">
+				<!-- <div class="col-md-4 col-sm-6 grid-item art">
 					<a href="images/works/1.svg" class="work-image">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -528,10 +548,10 @@
 							</div>
 						</div>
 					</a>
-				</div>
+				</div> -->
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative design">
 					<a href="#small-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -552,10 +572,11 @@
 						<p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
 						<a href="#" class="btn btn-default">View on Dribbble</a>
 					</div>
-				</div>
+				</div> -->
+				
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item branding">
+				<!-- <div class="col-md-4 col-sm-6 grid-item branding">
 					<a href="https://www.youtube.com/watch?v=qf9z4ulfmYw" class="work-video">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -569,10 +590,10 @@
 							</div>
 						</div>
 					</a>
-				</div>
+				</div> -->
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative">
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative">
 					<a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240233494&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="work-video">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -586,10 +607,10 @@
 							</div>
 						</div>
 					</a>
-				</div>
+				</div> -->
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art branding">
+				<!-- <div class="col-md-4 col-sm-6 grid-item art branding">
 					<a href="#gallery-1" class="gallery-link">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -607,10 +628,10 @@
 						<a href="images/works/5.svg"></a>
 						<a href="images/works/4.svg"></a>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative design">
 					<a href="https://themeforest.net/user/pxlsolutions/portfolio" target="_blank">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -624,7 +645,7 @@
 							</div>
 						</div>
 					</a>
-				</div>
+				</div> -->
 
 			</div>
 			
@@ -680,75 +701,6 @@
 				</div>
 
 			</div>
-
-			<div class="row">
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-1.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-2.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-3.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-4.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-5.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-6.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-7.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<!-- client item -->
-					<div class="client-item">
-						<div class="inner">
-							<img src="images/client-8.svg" alt="client-name" />
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
 
 	</section>
 	
@@ -855,7 +807,7 @@
 
 				<div class="col-md-8">
 					<!-- Contact Form -->
-					<form id="contact-form" class="contact-form mt-6" method="post" action="https://pxltheme.com/html/bolby/demo/form/contact.php">
+					<form id="contact-form" class="contact-form mt-6" method="post" action="#">
 						
 						<div class="messages"></div>
 						
