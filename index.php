@@ -98,7 +98,7 @@
 	
 	<!-- logo image -->
 	<div class="site-logo">
-		<a href="index-light.html">
+		<a href="/">
 			<!-- <img src="images/logo-dark.svg" alt="Bolby" /> -->
 			<h2 class="m-0">Hyginus</h2>
 		</a>
