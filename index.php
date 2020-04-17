@@ -425,6 +425,10 @@
 						return alert('Please complete your form. Thanks.')            	
 					} 
 
+					if (!validateEmail(senderEmail)) {
+						return alert('Invalid Email.')    
+					}
+
 					document.getElementById('submit').disabled = true;
 
 						var templateParams = {
@@ -446,6 +450,11 @@
 					
                     
                 }
+
+				function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
             </script>
 
 </body>
