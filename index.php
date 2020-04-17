@@ -211,7 +211,8 @@
 				<div class="col-md-3">
 					<div class="text-center text-md-left">
 						<!-- avatar image -->
-						<img src="images/avatar-2.svg" alt="Hyginus" />
+						<!-- <img src="images/avatar-2.svg" alt="Hyginus" /> -->
+						<div id="profile-image"></div>
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
@@ -408,7 +409,19 @@
 					var senderEmail = document.getElementById('InputEmail').value;
 					var subject = document.getElementById('InputSubject').value;
 
-					if(message == "" || message == null && senderName == "" || senderName == null && senderEmail == "" || senderEmail == null && subject == "" || subject == null){
+					if(message == "" || message == null ){
+						return alert('Please complete your form. Thanks.')            	
+					} 
+
+					if(senderName == "" || senderName == null ){
+						return alert('Please complete your form. Thanks.')            	
+					} 
+
+					if(senderEmail == "" || senderEmail == null ){
+						return alert('Please complete your form. Thanks.')            	
+					} 
+
+					if(subject == "" || subject == null ){
 						return alert('Please complete your form. Thanks.')            	
 					} 
 
