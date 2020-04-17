@@ -315,7 +315,7 @@
 
 				<div class="col-md-8">
 					<!-- Contact Form -->
-					<form id="contact-form" class="contact-form mt-6" method="post" action="#">
+					<form id="contact-form" class="contact-form mt-6" method="post" action="#" onsubmit="event.preventDefault(); sendMessage();">
 						
 						<div class="messages"></div>
 						
@@ -323,7 +323,7 @@
 							<div class="column col-md-6">
 								<!-- Name input -->
 								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
+									<input type="text" class="form-control" name="user_name" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -331,7 +331,7 @@
 							<div class="column col-md-6">
 								<!-- Email input -->
 								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+									<input type="email" class="form-control" id="InputEmail" name="user_email" placeholder="Email address" required="required" data-error="Email is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -339,7 +339,7 @@
 							<div class="column col-md-12">
 								<!-- Email input -->
 								<div class="form-group">
-									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
+									<input type="text" class="form-control" id="InputSubject" name="user_subject" placeholder="Subject" required="required" data-error="Subject is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -347,7 +347,7 @@
 							<div class="column col-md-12">
 								<!-- Message textarea -->
 								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
+									<textarea name="message" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -390,6 +390,50 @@
 <script src="js/parallax.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/custom.js"></script>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                (function(){
+                    emailjs.init("user_CUXQes88PKIj9OyP30GGv");
+                })();
+            </script>
+
+            <script>
+                function sendMessage(){
+
+					var message = document.getElementById('InputMessage').value;
+					var senderName = document.getElementById('InputName').value;
+					var senderEmail = document.getElementById('InputEmail').value;
+					var subject = document.getElementById('InputSubject').value;
+
+					if(message == "" || message == null && senderName == "" || senderName == null && senderEmail == "" || senderEmail == null && subject == "" || subject == null){
+						return alert('Please complete your form. Thanks.')            	
+					} 
+
+					document.getElementById('submit').disabled = true;
+
+						var templateParams = {
+						"reply_to": "Hyginus",
+						"from_name": "your website - hyginusukeh.com",
+						"to_name": "Hyginus",
+						"message_html": `<b>From :</b> ${senderName} <br/> <b>Email :</b> ${senderEmail} <br/> <b>Subject :</b> ${subject} <br/> <b>Message :</b> ${message}`
+						}
+	
+						emailjs.send('default_service', 'template_aaHM7x3a', templateParams)
+							.then(function(response) {
+								console.log('SUCCESS!', response.status, response.text);
+								alert('Message sent succesfully. Thanks, I will get back shortly.')
+								location.reload();
+							}, function(error) {
+							console.log('FAILED...', error);
+						});  
+
+					
+                    
+                }
+            </script>
 
 </body>
 
