@@ -149,6 +149,9 @@
 				<div class="mt-4">
 					<a href="#contact" class="btn btn-default">Hire me</a>
 				</div>
+				<div class="mt-4">
+					<a href="http://www.hyginusukeh.com/Resume-Hyginus-Ukeh.pdf" class="btn btn-default">Download Resume</a>
+				</div>
 			</div>
 			
 			<!-- scroll down mouse wheel -->
