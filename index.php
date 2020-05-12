@@ -16,11 +16,6 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 	
 	<style>
 		#profile-image{
@@ -139,7 +134,7 @@
 
 				<!-- info -->
 				<h1 class="mb-2 mt-2">Hyginus Ukeh</h1>
-				<span>I'm a <span class="text-rotating">UI/UX designer, Front-End Developer</span></span>
+				<span>I'm a <span class="text-rotating">UI/UX designer, Frontend Developer, Backend Developer</span></span>
 
 				<!-- social icons -->
 				<ul class="social-icons light list-inline mb-0 mt-4">
