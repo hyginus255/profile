@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<script data-ad-client="ca-pub-2211212453223346" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	
 	<style>
 		#profile-image{
